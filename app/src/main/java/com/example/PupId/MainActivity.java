@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.provider.MediaStore;
 
+import com.example.flowerid.R;
 import com.example.flowerid.ml.TfModel;
 
 import org.tensorflow.lite.DataType;
@@ -71,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     TfModel model = TfModel.newInstance(MainActivity.this);
 
-                    bitmap = Bitmap.createScaledBitmap(bitmap,224,224,true);
+                    Bitmap bitmap = Bitmap.createScaledBitmap(bitmap,224,224,true);
 
                     // Creates inputs for reference.
                     TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 224, 224, 3}, DataType.FLOAT32);

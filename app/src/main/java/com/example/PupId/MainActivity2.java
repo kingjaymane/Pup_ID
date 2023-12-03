@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.flowerid.R;
+
 public class MainActivity2 extends AppCompatActivity {
 
     @Override
