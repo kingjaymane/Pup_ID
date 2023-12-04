@@ -10,7 +10,7 @@
         android:id="@+id/breedIcon"
         android:layout_width="32dp"
         android:layout_height="32dp"
-        android:src="@drawable/ic_dog_icon"/>
+      />
 
     <TextView
         android:id="@+id/breedName"
