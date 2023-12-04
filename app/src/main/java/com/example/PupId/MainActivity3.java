@@ -26,6 +26,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.example.flowerid.R;
+
 public class MainActivity3 extends AppCompatActivity {
 
     private ListView buttonListView;
